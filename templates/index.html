@@ -1,0 +1,81 @@
+{% extends "dataset.html" %}
+{% block content %}
+              <table class="table custom-table">
+                <thead>
+                  <tr>
+                    <th><strong class="text-white">Player</strong></th>
+                    <th><strong class="text-white">Team</strong></th>
+                    <th><strong class="text-white">#</strong></th>
+                    <th><strong class="text-white">Nation</strong></th>
+                    <th><strong class="text-white">Position</strong></th>
+                    <th><strong class="text-white">Age</strong></th>
+                    <th><strong class="text-white">Minutes</strong></th>
+                    <th><strong class="text-white">Goals</strong></th>
+                    <th><strong class="text-white">Assists</strong></th>
+                    <th><strong class="text-white">Penalty Shoot on Goal</strong></th>
+                    <th><strong class="text-white">Penalty Shoot</strong></th>
+                    <th><strong class="text-white">Total Shoot</strong></th>
+                    <th><strong class="text-white">Shoot on Target</strong></th>
+                    <th><strong class="text-white">Yellow Cards</strong></th>
+                    <th><strong class="text-white">Red Cards</strong></th>
+                    <th><strong class="text-white">Touches</strong></th>
+                    <th><strong class="text-white">Dribbles</strong></th>
+                    <th><strong class="text-white">Tackles</strong></th>
+                    <th><strong class="text-white">Blocks</strong></th>
+                    <th><strong class="text-white">Expected Goals (xG)</strong></th>
+                    <th><strong class="text-white">Non-Penalty xG (npxG)</strong></th>
+                    <th><strong class="text-white">Expected Assists (xAG)</strong></th>
+                    <th><strong class="text-white">Shot-Creating Actions</strong></th>
+                    <th><strong class="text-white">Goal-Creating Actions</strong></th>
+                    <th><strong class="text-white">Passes Completed</strong></th>
+                    <th><strong class="text-white">Passes Attempted</strong></th>
+                    <th><strong class="text-white">Pass Completion %</strong></th>
+                    <th><strong class="text-white">Progressive Passes</strong></th>
+                    <th><strong class="text-white">Carries</strong></th>
+                    <th><strong class="text-white">Progressive Carries</strong></th>
+                    <th><strong class="text-white">Dribble Attempts</strong></th>
+                    <th><strong class="text-white">Successful Dribbles</strong></th>
+                    <th><strong class="text-white">Date</strong></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for player in players %}
+                  <tr>
+                    <td class="text-white">{{ player[0] }}</td>
+                    <td class="text-white">{{ player[1] }}</td>
+                    <td class="text-white">{{ player[2] }}</td>
+                    <td class="text-white">{{ player[3] }}</td>
+                    <td class="text-white">{{ player[4] }}</td>
+                    <td class="text-white">{{ player[5] }}</td>
+                    <td class="text-white">{{ player[6] }}</td>
+                    <td class="text-white">{{ player[7] }}</td>
+                    <td class="text-white">{{ player[8] }}</td>
+                    <td class="text-white">{{ player[9] }}</td>
+                    <td class="text-white">{{ player[10] }}</td>
+                    <td class="text-white">{{ player[11] }}</td>
+                    <td class="text-white">{{ player[12] }}</td>
+                    <td class="text-white">{{ player[13] }}</td>
+                    <td class="text-white">{{ player[14] }}</td>
+                    <td class="text-white">{{ player[15] }}</td>
+                    <td class="text-white">{{ player[16] }}</td>
+                    <td class="text-white">{{ player[17] }}</td>
+                    <td class="text-white">{{ player[18] }}</td>
+                    <td class="text-white">{{ player[19] }}</td>
+                    <td class="text-white">{{ player[20] }}</td>
+                    <td class="text-white">{{ player[21] }}</td>
+                    <td class="text-white">{{ player[22] }}</td>
+                    <td class="text-white">{{ player[23] }}</td>
+                    <td class="text-white">{{ player[24] }}</td>
+                    <td class="text-white">{{ player[25] }}</td>
+                    <td class="text-white">{{ player[26] }}</td>
+                    <td class="text-white">{{ player[27] }}</td>
+                    <td class="text-white">{{ player[28] }}</td>
+                    <td class="text-white">{{ player[29] }}</td>
+                    <td class="text-white">{{ player[30] }}</td>
+                    <td class="text-white">{{ player[31] }}</td>
+                    <td class="text-white">{{ player[32] }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+{% endblock %}

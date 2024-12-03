@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Soccer &mdash; Website by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/static/fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="/static/css/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="/static/css/jquery-ui.css">
+  <link rel="stylesheet" href="/static/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="/static/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="/static/css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="/static/css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="/static/css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="/static/fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="/static/css/aos.css">
+
+  <link rel="stylesheet" href="/static/css/style.css">
+
+  <link rel="icon" href="/static/favicon.ico">
+
+</head>
+
+<body>
+
+  <div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar py-4" role="banner">
+
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <div class="site-logo">
+            <a href="/">
+              <img src="/static/images/group_12_logo.png" width="150px" alt="Logo">
+            </a>
+          </div>
+          <div class="ml-auto">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="team" class="nav-link">Team</a></li>
+                <li><a href="/" class="nav-link">Data</a></li>
+                <li class="active"><a href="about" class="nav-link">About</a></li>
+              </ul>
+            </nav>
+
+            <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right text-white"><span
+                class="icon-menu h3 text-white"></span></a>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <div class="hero overlay" style="background-image: url('/static/images/bg_3.jpg');">
+      <div class="container">
+        <div class="row align-items-start py-4">
+          <div class="col-lg-11 ml-auto">
+            <div class="container site-section">
+              <div class="row">
+                <div class="col-6 title-section">
+                  <h2 class="heading">Data Source Description</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="custom-media d-flex">
+                    <div class="text">
+                      <h3 class="mb-4"><a href="#">Data Owner</a></h3>
+                      <p><a href="https://www.kaggle.com/" target="_blank">https://www.kaggle.com/</a></p>
+                    </div>
+                  </div>
+                  <div class="custom-media d-flex">
+                    <div class="text">
+                      <h3 class="mb-4"><a href="#">Data URL</a></h3>
+                      <p><a href="https://www.kaggle.com/datasets/eduardopalmieri/laliga-players-stats?resource=download" target="_blank">https://www.kaggle.com/datasets/eduardopalmieri/laliga-players-stats?resource=download</a></p>
+                    </div>
+                  </div>
+                  <div class="custom-media d-flex">
+                    <div class="text">
+                      <h3 class="mb-4"><a href="#">Data Information</a></h3>
+                      <p>This dataset provides a comprehensive overview of player performance in the La Liga capturing a wide array of metrics related to gameplay, scoring, passing, and defensive actions. With records detailing individual player statistics across different teams, this dataset is a valuable resource for analysts, data scientists, and fans who are interested in diving into player performance data from one of the world’s top soccer leagues.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section bg-dark">
+      <div class="container variables-table">
+        <div class="row">
+          <div class="col-lg-12">
+            
+            <div class="widget-next-match">
+              <table class="table custom-table">
+                <thead>
+                  <tr>
+                    <th>Variable</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong class="text-white">Player</strong></td>
+                    <td>Name of the player</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Team</strong></td>
+                    <td>Team the player belongs to</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">#</strong></td>
+                    <td>Player's jersey number</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Nation</strong></td>
+                    <td>Nationality of the player</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Position</strong></td>
+                    <td>Primary playing position on the field</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Age</strong></td>
+                    <td>Age of the player</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Minutes</strong></td>
+                    <td>Total minutes played</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Goals</strong></td>
+                    <td>Number of goals scored</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Assists</strong></td>
+                    <td>Number of assists</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Penalty Shoot on Goal</strong></td>
+                    <td>Penalty shots taken on goal</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Penalty Shoot</strong></td>
+                    <td>Total penalty shots attempted</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Total Shoot</strong></td>
+                    <td>Total shots attempted</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Shoot on Target</strong></td>
+                    <td>Shots successfully on target</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Yellow Cards</strong></td>
+                    <td>Number of yellow cards received</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Red Cards</strong></td>
+                    <td>Number of red cards received</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Touches</strong></td>
+                    <td>Total ball touches</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Dribbles</strong></td>
+                    <td>Total dribbles attempted</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Tackles</strong></td>
+                    <td>Total tackles made</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Blocks</strong></td>
+                    <td>Total blocks</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Expected Goals (xG)</strong></td>
+                    <td>Expected goals, calculated based on shooting positions and likelihood of scoring</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Non-Penalty xG (npxG)</strong></td>
+                    <td>Expected goals excluding penalties</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Expected Assists (xAG)</strong></td>
+                    <td>Expected assists, based on actions leading to an expected goal (xG)</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Shot-Creating Actions</strong></td>
+                    <td>Actions leading to a shot attempt</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Goal-Creating Actions</strong></td>
+                    <td>Actions leading to a goal</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Passes Completed</strong></td>
+                    <td>Successful passes completed</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Passes Attempted</strong></td>
+                    <td>Total passes attempted</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Pass Completion %</strong></td>
+                    <td>Pass completion rate, expressed as a percentage (some entries have missing values here)</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Progressive Passes</strong></td>
+                    <td>Passes advancing the ball significantly toward the opponent’s goal</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Carries</strong></td>
+                    <td>Total ball carries</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Progressive Carries</strong></td>
+                    <td>Carries advancing the ball significantly toward the opponent’s goal</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Dribble Attempts</strong></td>
+                    <td>Total dribbles attempted</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Successful Dribbles</strong></td>
+                    <td>Total successful dribbles</td>
+                  </tr>
+                  <tr>
+                    <td><strong class="text-white">Date</strong></td>
+                    <td>Date of record collection or game date</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div> <!-- .site-section -->
+
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-md-12">
+            <p>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script> All rights reserved | This template is made with <i class="icon-heart"
+                aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </footer>
+
+
+
+  </div>
+  <!-- .site-wrap -->
+
+  <script src="/static/js/jquery-3.3.1.min.js"></script>
+  <script src="/static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="/static/js/jquery-ui.js"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/owl.carousel.min.js"></script>
+  <script src="/static/js/jquery.stellar.min.js"></script>
+  <script src="/static/js/jquery.countdown.min.js"></script>
+  <script src="/static/js/bootstrap-datepicker.min.js"></script>
+  <script src="/static/js/jquery.easing.1.3.js"></script>
+  <script src="/static/js/aos.js"></script>
+  <script src="/static/js/jquery.fancybox.min.js"></script>
+  <script src="/static/js/jquery.sticky.js"></script>
+  <script src="/static/js/jquery.mb.YTPlayer.min.js"></script>
+
+
+  <script src="/static/js/main.js"></script>
+
+</body>
+
+</html>
