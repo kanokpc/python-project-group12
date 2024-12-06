@@ -19,7 +19,7 @@ This project is a simple web application that retrieves soccer team information 
     
 ## File Structure
 - data_processing
-      - laliga_24_25.csv
+   - laliga_24_25.csv
 - static
    - css
       - bootstrap
