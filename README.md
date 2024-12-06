@@ -11,10 +11,13 @@ This project is a simple web application that retrieves soccer team information 
 
 ## Installation
 
-1. Clone the repository:
+1. Project URL
+   https://github.com/kanokpc/python-project-group12
+
+2. Clone the repository:
    git clone https://github.com:kanokpc/python-project-group12.git
 
-2. Run requirements.txt
+3. Run requirements.txt
     pip install -r requirements.txt
     
 ## File Structure
