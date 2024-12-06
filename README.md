@@ -18,15 +18,15 @@ This project is a simple web application that retrieves soccer team information 
     pip install -r requirements.txt
     
 ## File Structure
-- root
-   - data_processing
-      laliga_24_25.csv
-- static
-   - css
-      - bootstrap
-         bootstrap.css
-         bootstrap-reboot.css
-         bootstrap-grid.css
+|-- root
+|  |-- data_processing
+|  |  |-- laliga_24_25.csv
+|  |-- static
+|  |  |-- css
+|  |  |  |-- bootstrap
+|  |  |  |-- bootstrap.css
+|  |  |  |-- bootstrap-reboot.css
+|  |  |  |-- bootstrap-grid.css
       aos.css
       bootstrap-datepicker.css
       bootstrap.min.css
